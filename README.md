@@ -23,6 +23,8 @@ In index.erb
 ```
 
 ### Can you update the app to display the time that the count was last updated? This value should be stored in the database so that it will be accurately displayed even if the server is restarted.
+In psql database
+![Model of Code](./public/images/time_code.png)
 In counter.rb
 ```
   def time
